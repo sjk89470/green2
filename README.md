@@ -1049,7 +1049,7 @@ https://github.com/sjk89470/green.git
 7. package.json 열고 배고 주소를 기록한다.
 5. 깃 설정 
     git init
-    homepage     https://sjk89470.github.io/green
+    homepage     https://sjk89470.github.io/green2
 
 깃 환결설정 email, name
 
@@ -1057,8 +1057,7 @@ git config user.name 'sjk89470'
 git config user.email 'sjk89470@naver.com'
 
 3. 리파지토리 주소 오리진 origin 
-    git remote add origin https://github.com/sjk89470/green.git
-    
+    git remote add origin https://github.com/sjk89470/green2.git
     // 잘못된 오리진 삭제
     git remote remove origin https://github.com/sjk89470/green.git
 
@@ -1068,4 +1067,10 @@ git config user.email 'sjk89470@naver.com'
     origin  https://github.com/sjk89470/green.git (push)
 
 5. 스테이징 업로드 = 푸쉬 할 준비                             
-git add
+git add .
+
+6. 커밋                     
+    git commit -m "리액트 프로젝트 푸른마을 배포"
+
+7. 푸쉬
+    git push origin master
